@@ -1,0 +1,12 @@
+<html>
+<head>MERN</head>
+<body>
+	<script>
+//fetch('localhost:9090/products/5c5e9d158e5c810c5c8fce12')
+fetch('http://localhost:8080/products/')
+.then(response => response.json())
+.then(data => console.log(data))// Prints result from `response.json()` in getRequest
+.catch(error => console.error(error))
+</script>
+</body>
+</html>
