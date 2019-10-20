@@ -1,6 +1,6 @@
 # cloud-app
-A simple cloud app with Rest APIs for posting pictures and upvoting. 
-Done using Node JS, mongo DB.
+A simple app with Rest APIs for posting pictures and upvoting. 
+Built using Node JS, mongo DB.
 Included dockerfile for dockerization.
 
 Orch.js is a simple container orchestrator which does :
